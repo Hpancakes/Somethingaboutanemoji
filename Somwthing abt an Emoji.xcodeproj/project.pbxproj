@@ -14,6 +14,7 @@
 		BEEF50F31F048177008EA5D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEEF50F11F048177008EA5D3 /* LaunchScreen.storyboard */; };
 		BEEF50FE1F048177008EA5D3 /* Somwthing_abt_an_EmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEF50FD1F048177008EA5D3 /* Somwthing_abt_an_EmojiTests.swift */; };
 		BEEF51091F048177008EA5D3 /* Somwthing_abt_an_EmojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEF51081F048177008EA5D3 /* Somwthing_abt_an_EmojiUITests.swift */; };
+		BEEF51171F04BDC2008EA5D3 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEF51161F04BDC2008EA5D3 /* DefinitionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BEEF51041F048177008EA5D3 /* Somwthing abt an EmojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Somwthing abt an EmojiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEEF51081F048177008EA5D3 /* Somwthing_abt_an_EmojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Somwthing_abt_an_EmojiUITests.swift; sourceTree = "<group>"; };
 		BEEF510A1F048177008EA5D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEEF51161F04BDC2008EA5D3 /* DefinitionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				BEEF50E81F048177008EA5D3 /* AppDelegate.swift */,
 				BEEF50EA1F048177008EA5D3 /* ViewController.swift */,
+				BEEF51161F04BDC2008EA5D3 /* DefinitionViewController.swift */,
 				BEEF50EC1F048177008EA5D3 /* Main.storyboard */,
 				BEEF50EF1F048177008EA5D3 /* Assets.xcassets */,
 				BEEF50F11F048177008EA5D3 /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEEF50EB1F048177008EA5D3 /* ViewController.swift in Sources */,
+				BEEF51171F04BDC2008EA5D3 /* DefinitionViewController.swift in Sources */,
 				BEEF50E91F048177008EA5D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
