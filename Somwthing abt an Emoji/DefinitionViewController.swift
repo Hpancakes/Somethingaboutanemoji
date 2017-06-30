@@ -12,6 +12,8 @@ class DefinitionViewController: UIViewController {
     
     @IBOutlet weak var labelEmoji: UILabel!
     @IBOutlet weak var descLabel: UILabel!
+    @IBOutlet weak var categoryLabel: UILabel!
+    @IBOutlet weak var metodoLabel: UILabel!
     
     var emoji = "No emoji"
 

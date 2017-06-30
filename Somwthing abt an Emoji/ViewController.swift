@@ -13,6 +13,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     @IBOutlet weak var tableView: UITableView!
     
     var emojiArray = ["😖", "😑", "🤡", "😡", "💩", "🤣", "😵", "🤑", "😤", "🤓", "🤤"]
+    var desc = ["cara rara", "Cara sexy", "esto es un payaso"]
         
         
         
@@ -40,12 +41,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let emoji = emojiArray[indexPath.row]
         performSegue(withIdentifier: "moveSegue", sender: emoji)
+        
+    
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let deFVC = segue.destination as! DefinitionViewController
-        
         deFVC.emoji = sender as! String
+        // I dont really know what is this?
+        
     }
 
     override func didReceiveMemoryWarning() {

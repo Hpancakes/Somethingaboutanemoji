@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="yed-er-egB">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,11 +18,11 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Wfn-ms-qBf">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
                         </subviews>
@@ -53,20 +53,40 @@
                         <viewControllerLayoutGuide type="bottom" id="r4m-21-ebx"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="qji-rJ-7La">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="🤤" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HsQ-jq-6lC">
-                                <rect key="frame" x="115.5" y="124" width="144" height="159"/>
+                                <rect key="frame" x="88" y="124" width="144" height="159"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="133"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hiV-sX-Q1S">
-                                <rect key="frame" x="61" y="333" width="252" height="139"/>
+                                <rect key="frame" x="34" y="291" width="252" height="139"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="139" id="ECd-WD-c2D"/>
                                     <constraint firstAttribute="width" constant="252" id="vTP-IY-7wc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Category" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PJi-NU-xe3">
+                                <rect key="frame" x="34" y="438" width="252" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="252" id="Gup-yI-byG"/>
+                                    <constraint firstAttribute="height" constant="39" id="ZZR-Ul-lSQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Metodo" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KbA-bY-34p">
+                                <rect key="frame" x="34" y="485" width="252" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="252" id="0HC-VW-c6b"/>
+                                    <constraint firstAttribute="height" constant="44" id="pXK-gg-v8Y"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <nil key="textColor"/>
@@ -76,15 +96,21 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="hiV-sX-Q1S" firstAttribute="centerX" secondItem="qji-rJ-7La" secondAttribute="centerX" id="3lL-j3-jSe"/>
-                            <constraint firstItem="hiV-sX-Q1S" firstAttribute="top" secondItem="HsQ-jq-6lC" secondAttribute="bottom" constant="50" id="61O-DQ-LP0"/>
+                            <constraint firstItem="hiV-sX-Q1S" firstAttribute="top" secondItem="HsQ-jq-6lC" secondAttribute="bottom" constant="8" id="61O-DQ-LP0"/>
                             <constraint firstItem="hiV-sX-Q1S" firstAttribute="centerX" secondItem="qji-rJ-7La" secondAttribute="centerX" id="9s1-q9-nRn"/>
                             <constraint firstItem="HsQ-jq-6lC" firstAttribute="top" secondItem="SWY-5G-AkS" secondAttribute="bottom" constant="60" id="HcK-kK-6T8"/>
+                            <constraint firstItem="KbA-bY-34p" firstAttribute="top" secondItem="PJi-NU-xe3" secondAttribute="bottom" constant="8" id="UuA-zD-abM"/>
+                            <constraint firstItem="PJi-NU-xe3" firstAttribute="top" secondItem="hiV-sX-Q1S" secondAttribute="bottom" constant="8" id="dMc-3m-WYe"/>
+                            <constraint firstItem="PJi-NU-xe3" firstAttribute="centerX" secondItem="qji-rJ-7La" secondAttribute="centerX" id="gCj-gO-Vbh"/>
                             <constraint firstItem="HsQ-jq-6lC" firstAttribute="centerX" secondItem="qji-rJ-7La" secondAttribute="centerX" id="oR2-19-50e"/>
+                            <constraint firstItem="KbA-bY-34p" firstAttribute="centerX" secondItem="qji-rJ-7La" secondAttribute="centerX" id="zIX-m7-yfz"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="categoryLabel" destination="PJi-NU-xe3" id="wgu-S9-blE"/>
                         <outlet property="descLabel" destination="hiV-sX-Q1S" id="xta-M1-Lux"/>
                         <outlet property="labelEmoji" destination="HsQ-jq-6lC" id="paJ-s8-uq1"/>
+                        <outlet property="metodoLabel" destination="KbA-bY-34p" id="ft0-SA-cRb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GKd-Xb-ogJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
