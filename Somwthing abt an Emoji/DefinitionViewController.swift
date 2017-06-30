@@ -15,14 +15,17 @@ class DefinitionViewController: UIViewController {
     @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var metodoLabel: UILabel!
     
-    var emoji = "No emoji"
+    var emoji = Emoji()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
-        labelEmoji.text = emoji
+        labelEmoji.text = emoji.iconEmoji
+        descLabel.text = emoji.definition
+        categoryLabel.text = emoji.category
+        metodoLabel.text = "El año fue \(emoji.origin)"
     }
 
     override func didReceiveMemoryWarning() {
